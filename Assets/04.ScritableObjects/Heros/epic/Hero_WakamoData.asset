@@ -46,7 +46,7 @@ MonoBehaviour:
     idleTexts:
     - "\uB4DC\uB514\uC5B4 \uB2F9\uC2E0\uACFC \uB9CC\uB098\uAC8C \uB418\uC5C8\uAD70\uC694\u2661"
     - "\uD6C4\uD6D7, \uC5B8\uC81C\uB098 \uB2F9\uC2E0 \uACC1\uC5D0\u2661"
-    sprite: {fileID: 1030734368, guid: 9f96f01f4bc13b940a273720a2aaf5f8, type: 3}
+    sprite: {fileID: 865541016, guid: 9f96f01f4bc13b940a273720a2aaf5f8, type: 3}
     uiSprite: {fileID: 21300000, guid: b94d3c04c7bb1cf44b85ad34811372c5, type: 3}
     uiTextColor: {r: 0.68235296, g: 0.24705882, b: 0.23137255, a: 1}
     uiBackgroundColor: {r: 0.2264151, g: 0.15322489, b: 0.1505874, a: 1}

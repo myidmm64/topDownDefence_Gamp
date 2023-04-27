@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f676cda5e002d2408a17f82f0658077, type: 3}
+  m_Name: Hero_NeruData
+  m_EditorClassIdentifier: 
+  heroQuality: 1
+  heroDatas:
+  - heroName: "\uB124\uB8E8"
+    heroSubName: "\uBBF8\uCE74\uBAA8"
+    newEvolutionCount: 0
+    originUpgradeCost: 0
+    idleTextData: {fileID: 11400000, guid: effc7f2f55115e64b8ece66f1baa258b, type: 2}
+    idleTextRepeatTime: 3
+    idleTexts:
+    - "\uB108\uD76C\uB4E4\u2026\u2026\uBD80\uC234\uBC84\uB9AC\uB7EC \uAC04\uB2E4!"
+    - "\uC544\uC559? \uC7A5\uB09C\uD558\uB0D0?!"
+    sprite: {fileID: 447774654, guid: 9f96f01f4bc13b940a273720a2aaf5f8, type: 3}
+    uiSprite: {fileID: 21300000, guid: 9e94895f5ac8770449405741128854fb, type: 3}
+    uiTextColor: {r: 0.96862745, g: 0.62352943, b: 0.53333336, a: 1}
+    uiBackgroundColor: {r: 0.3490566, g: 0.24593568, b: 0.21898362, a: 1}
+    shootingDelay: 0.25
+    damage: 5
+    bulletSpeed: 50
+    specialAttackCount: 3
+    feverAttackCount: 15
+    feverColor: {r: 0.96862745, g: 0.62352943, b: 0.53333336, a: 1}
+    feverDialog: "\uB108\uD76C\uB4E4\u2026\u2026\uBD80\uC234\uBC84\uB9AC\uB7EC \uAC04\uB2E4!"
+    criticalPercent: 20
+    normalArrow: 3
+    specialArrow: 4
