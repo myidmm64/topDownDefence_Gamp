@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f676cda5e002d2408a17f82f0658077, type: 3}
+  m_Name: Hero_mashiroData
+  m_EditorClassIdentifier: 
+  heroQuality: 2
+  heroDatas:
+  - heroName: "\uB9C8\uC2DC\uB85C"
+    heroSubName: "\uC2DC\uC988\uC57C\uB9C8"
+    newEvolutionCount: 3
+    originUpgradeCost: 50
+    idleTextData: {fileID: 11400000, guid: effc7f2f55115e64b8ece66f1baa258b, type: 2}
+    idleTextRepeatTime: 3
+    idleTexts:
+    - "\uC815\uC758\uAC00 \uD544\uC694\uD55C \uACF3\uC740 \uC5B4\uB514\uC785\uB2C8\uAE4C?"
+    - "\uD2F0\uB04C\uB3C4 \uBAA8\uC73C\uBA74 \uC0B0\uC774 \uB41C\uB2E4"
+    sprite: {fileID: 1070634667, guid: 9f96f01f4bc13b940a273720a2aaf5f8, type: 3}
+    uiSprite: {fileID: 21300000, guid: a9773d6510aeda64193081284e7902a0, type: 3}
+    uiTextColor: {r: 0.5294118, g: 0.5294118, b: 0.5294118, a: 1}
+    uiBackgroundColor: {r: 0.1882353, g: 0.1882353, b: 0.1882353, a: 1}
+    shootingDelay: 0.05
+    damage: 4
+    bulletSpeed: 50
+    specialAttackCount: 14
+    feverAttackCount: 50
+    feverColor: {r: 0.5294118, g: 0.5294118, b: 0.5294118, a: 1}
+    feverDialog: "\uC815\uC758\uAC00 \uD544\uC694\uD55C \uACF3\uC740 \uC5B4\uB514\uC785\uB2C8\uAE4C?"
+    criticalPercent: 15
+    normalArrow: 3
+    specialArrow: 4
+  - heroName: "\uCE20\uB8E8\uAE30"
+    heroSubName: "\uBB34\uCE5C"
+    newEvolutionCount: 0
+    originUpgradeCost: 0
+    idleTextData: {fileID: 11400000, guid: effc7f2f55115e64b8ece66f1baa258b, type: 2}
+    idleTextRepeatTime: 3
+    idleTexts:
+    - "\uD30C\uAD34\uB2E4! \uD30C\uAD34\uD574\uBC84\uB9AC\uACA0\uC5B4!"
+    - ...
+    sprite: {fileID: -1808720897, guid: 9f96f01f4bc13b940a273720a2aaf5f8, type: 3}
+    uiSprite: {fileID: 21300000, guid: 5d7c62ecf2e28214dbae6a72c680f6f3, type: 3}
+    uiTextColor: {r: 0.5294118, g: 0.5294118, b: 0.5294118, a: 1}
+    uiBackgroundColor: {r: 0.1882353, g: 0.1882353, b: 0.1882353, a: 1}
+    shootingDelay: 0.05
+    damage: 8
+    bulletSpeed: 50
+    specialAttackCount: 14
+    feverAttackCount: 50
+    feverColor: {r: 0.5294118, g: 0.5294118, b: 0.5294118, a: 1}
+    feverDialog: "\uD30C\uAD34\uB2E4! \uD30C\uAD34\uD574\uBC84\uB9AC\uACA0\uC5B4!"
+    criticalPercent: 15
+    normalArrow: 3
+    specialArrow: 4

@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f676cda5e002d2408a17f82f0658077, type: 3}
+  m_Name: Hero_YuukaData
+  m_EditorClassIdentifier: 
+  heroQuality: 1
+  heroDatas:
+  - heroName: "\uC720\uC6B0\uCE74"
+    heroSubName: "\uC138\uBBF8\uB098"
+    newEvolutionCount: 3
+    originUpgradeCost: 10
+    idleTextData: {fileID: 11400000, guid: effc7f2f55115e64b8ece66f1baa258b, type: 2}
+    idleTextRepeatTime: 3
+    idleTexts:
+    - "\uC6B4\uC774 \uC88B\uC558\uB2E4? \uC544\uB1E8, \uACC4\uC0B0\uB300\uB85C\uC785\uB2C8\uB2E4."
+    - "\uACC4\uC0B0\uB300\uB85C\uC57C"
+    - "\uCD5C\uC801\uD574 \uB3C4\uCD9C"
+    sprite: {fileID: 1034920476, guid: 9f96f01f4bc13b940a273720a2aaf5f8, type: 3}
+    uiSprite: {fileID: 21300000, guid: e5c56798719eb304c8628cdda39bce5f, type: 3}
+    uiTextColor: {r: 0.3764706, g: 0.35686275, b: 0.58431375, a: 1}
+    uiBackgroundColor: {r: 0.15967722, g: 0.1495194, b: 0.3018868, a: 1}
+    shootingDelay: 0.2
+    damage: 3
+    bulletSpeed: 40
+    specialAttackCount: 3
+    feverAttackCount: 20
+    feverColor: {r: 0.3764706, g: 0.35686275, b: 0.58431375, a: 1}
+    feverDialog: "\uD558\uACE0 \uC2F6\uC740 \uB9D0\uC740 \uC57D \uC11C\uB978 \uB124
+      \uAC1C\uB2E4 !!"
+    criticalPercent: 10
+    normalArrow: 3
+    specialArrow: 4
+  - heroName: "\uBBF8\uB3C4\uB9AC"
+    heroSubName: "\uC0AC\uC774\uBC14"
+    newEvolutionCount: 3
+    originUpgradeCost: 50
+    idleTextData: {fileID: 11400000, guid: effc7f2f55115e64b8ece66f1baa258b, type: 2}
+    idleTextRepeatTime: 3
+    idleTexts:
+    - "\uCD5C\uACE0\uC758 \uD50C\uB808\uC774\uB85C \uC120\uC0DD\uB2D8\uB4E4 \uB3C4\uC6B8\uAC8C\uC694."
+    - "\uC7AC\uBC0C\uB294 \uAC8C\uC784 \uCD94\uCC9C\uBC1B\uC544\uC694."
+    sprite: {fileID: 1191969791, guid: 9f96f01f4bc13b940a273720a2aaf5f8, type: 3}
+    uiSprite: {fileID: 21300000, guid: 00120edeffb0188439c7909710083227, type: 3}
+    uiTextColor: {r: 0.7921569, g: 0.9137255, b: 0.34509805, a: 1}
+    uiBackgroundColor: {r: 0.3288757, g: 0.3773585, b: 0.14417943, a: 1}
+    shootingDelay: 0.2
+    damage: 12
+    bulletSpeed: 40
+    specialAttackCount: 3
+    feverAttackCount: 20
+    feverColor: {r: 0.7921569, g: 0.9137255, b: 0.34509805, a: 1}
+    feverDialog: "\uCD5C\uACE0\uC758 \uD50C\uB808\uC774\uB85C \uC120\uC0DD\uB2D8\uB4E4
+      \uB3C4\uC6B8\uAC8C\uC694."
+    criticalPercent: 10
+    normalArrow: 3
+    specialArrow: 4
+  - heroName: "\uBAA8\uBAA8\uC774"
+    heroSubName: "\uC0AC\uC774\uBC14"
+    newEvolutionCount: 0
+    originUpgradeCost: 0
+    idleTextData: {fileID: 11400000, guid: effc7f2f55115e64b8ece66f1baa258b, type: 2}
+    idleTextRepeatTime: 3
+    idleTexts:
+    - "\uC5E3-\uD5F4! \uC774\uAC78\uB85C \uD018\uC2A4\uD2B8 \uD074\uB9AC\uC5B4!"
+    - "\uAC8C\uC784 \uC678\uAE38 \uC778\uC0DD"
+    sprite: {fileID: -1026964198, guid: 9f96f01f4bc13b940a273720a2aaf5f8, type: 3}
+    uiSprite: {fileID: 21300000, guid: b57aeb76743fbf145b45ec4ae162ab19, type: 3}
+    uiTextColor: {r: 1, g: 0.6156863, b: 0.6313726, a: 1}
+    uiBackgroundColor: {r: 0.38679248, g: 0.15873088, b: 0.16803952, a: 1}
+    shootingDelay: 0.2
+    damage: 20
+    bulletSpeed: 40
+    specialAttackCount: 3
+    feverAttackCount: 20
+    feverColor: {r: 1, g: 0.6156863, b: 0.6313726, a: 1}
+    feverDialog: "\uC5E3-\uD5F4! \uC774\uAC78\uB85C \uD018\uC2A4\uD2B8 \uD074\uB9AC\uC5B4!"
+    criticalPercent: 10
+    normalArrow: 3
+    specialArrow: 4

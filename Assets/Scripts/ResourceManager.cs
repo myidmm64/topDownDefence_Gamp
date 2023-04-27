@@ -11,7 +11,7 @@ public class ResourceManager : MonoBehaviour
     [SerializeField]
     private List<ResourceAmount> startingResourceAmountList = new List<ResourceAmount>();
 
-    private int _cost = 1000000;
+    private int _cost = 10;
     public int Cost { get => _cost; set { _cost = value; CostUIChange(); } }
     [SerializeField]
     private TextMeshProUGUI _costText = null;
@@ -34,7 +34,7 @@ public class ResourceManager : MonoBehaviour
 
     private void Start()
     {
-        InvokeRepeating("CostUp", 1f, 0.5f);
+        InvokeRepeating("CostUp", 1f, 2f);
     }
 
     private void CostUp()

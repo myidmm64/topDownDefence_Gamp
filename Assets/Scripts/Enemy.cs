@@ -46,8 +46,8 @@ public class Enemy : PoolAbleObject
         ChromaticAberrationEffect.Instance.SetWeight(.5f);
         Instantiate(GameAssets.Instance.pfEnemyDieParticles, transform.position, Quaternion.identity);
         ResourceManager.Instance.Cost += _dataSO.dieCost;
-        PopupPoolObject popup = PopupManager.Instance.Popup(null, $"+{_dataSO.dieCost}", transform.position);
-        popup.ColorSet(new Color(0, 0, 0.25f));
+        //PopupPoolObject popup = PopupManager.Instance.Popup(null, $"+{_dataSO.dieCost}", transform.position);
+        //popup.ColorSet(new Color(0, 0, 0.25f));
         PoolManager.Push(poolType, gameObject);
     }
 

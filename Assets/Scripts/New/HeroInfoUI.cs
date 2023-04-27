@@ -38,11 +38,11 @@ public class HeroInfoUI : MonoBehaviour
         _subNameText.SetText(hero.CurData.heroSubName);
         _subNameText.color = hero.CurData.uiTextColor;
         _nameText.color = hero.CurData.uiTextColor;
-        _upgradeCostText.SetText($"강화 코스트 : <color=#{hero.CurData.uiTextColor.ToHexString()}>{upgradeCost}</color>");
-        _needUpgradeText.SetText($"진화 필요 강화 : <color=#{hero.CurData.uiTextColor.ToHexString()}>{remainingEvolutionCount}</color>");
-        _shootDelayText.SetText($"공격 속도 : <color=#{hero.CurData.uiTextColor.ToHexString()}>{(1f / shootDelay).ToString("N1")}/s</color>");
-        _damageText.SetText($"데미지 : <color=#{hero.CurData.uiTextColor.ToHexString()}>{damage} ~ {damage * 2}</color>");
-        _shootSpeedText.SetText($"투사체 속도 : <color=#{hero.CurData.uiTextColor.ToHexString()}>{bulletSpeed.ToString("N1")}</color>");
+        _upgradeCostText.SetText($"<color=#{hero.CurData.uiTextColor.ToHexString()}>강화 코스트 : {upgradeCost}</color>");
+        _needUpgradeText.SetText($"<color=#{hero.CurData.uiTextColor.ToHexString()}>진화 필요 강화 : {remainingEvolutionCount}</color>");
+        _shootDelayText.SetText($"<color=#{hero.CurData.uiTextColor.ToHexString()}>공격 속도 : {(1f / shootDelay).ToString("N1")}/s</color>");
+        _damageText.SetText($"<color=#{hero.CurData.uiTextColor.ToHexString()}>데미지 : {damage} ~ {Mathf.RoundToInt(damage * 1.3f)}</color>");
+        _shootSpeedText.SetText($"<color=#{hero.CurData.uiTextColor.ToHexString()}>투사체 속도 : {bulletSpeed.ToString("N1")}</color>");
         _heroFaceImage.sprite = hero.CurData.uiSprite;
     }
 

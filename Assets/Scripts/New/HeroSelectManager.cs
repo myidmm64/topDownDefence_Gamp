@@ -80,7 +80,7 @@ public class HeroSelectManager : MonoSingleTon<HeroSelectManager>
                 }
                 Instantiate(GameAssets.Instance.pfBuildingPlacedParticles, UtilClass.GetMouseWorldPosition(), Quaternion.identity);
                 List<Hero> heroList = _herosDic[_curType];
-                GameObject hero = Instantiate(heroList[Random.Range(0, heroList.Count - 1)], Vector2.zero, Quaternion.identity).gameObject;
+                GameObject hero = Instantiate(heroList[Random.Range(0, heroList.Count)], Vector2.zero, Quaternion.identity).gameObject;
                 hero.transform.position = UtilClass.GetMouseWorldPosition();
                 ResourceManager.Instance.Cost -= _costs[(int)_curType - 1];
             }

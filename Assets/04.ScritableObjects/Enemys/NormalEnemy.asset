@@ -17,4 +17,4 @@ MonoBehaviour:
   damage: 10
   sprite: {fileID: 21300000, guid: aaf36ecad22380d43b007f825fd407a7, type: 3}
   size: 1
-  dieCost: 10
+  dieCost: 1

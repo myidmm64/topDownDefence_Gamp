@@ -58,7 +58,8 @@ public class Hero : MonoBehaviour
 
     private void IdleTexting()
     {
-        PopupManager.Instance.Popup(_curData.idleTextData, _curData.idleTexts[Random.Range(0, _curData.idleTexts.Count)], _idleTextingTrm.position);
+        PopupPoolObject pool = PopupManager.Instance.Popup(_curData.idleTextData, _curData.idleTexts[Random.Range(0, _curData.idleTexts.Count)], _idleTextingTrm.position);
+        pool.ColorSet(_curData.uiTextColor);
     }
 
     private IEnumerator ShootingCoroutine()
@@ -79,12 +80,12 @@ public class Hero : MonoBehaviour
             if ((_attackCount % _curData.specialAttackCount) == 0) // ½ºÆä¼È
             {
                 ArrowProjectile arrow = PoolManager.Pop(_curData.specialArrow).GetComponent<ArrowProjectile>();
-                arrow.Init(projectileSpawnPosition, _curData.bulletSpeed, _curData.damage, _curData.criticalPercent, targetEnemy.transform);
+                arrow.Init(projectileSpawnPosition, _curData.bulletSpeed, Mathf.RoundToInt(_curData.damage * 1.3f), _curData.criticalPercent, targetEnemy.transform);
             }
             else
             {
                 ArrowProjectile arrow = PoolManager.Pop(_curData.normalArrow).GetComponent<ArrowProjectile>();
-                arrow.Init(projectileSpawnPosition, _curData.bulletSpeed, _curData.damage * 2, _curData.criticalPercent, targetEnemy.transform);
+                arrow.Init(projectileSpawnPosition, _curData.bulletSpeed, _curData.damage, _curData.criticalPercent, targetEnemy.transform);
             }
             _attackCount++;
             FeverUISet();
